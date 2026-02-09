@@ -2,11 +2,12 @@ import React from 'react'
 
 import People from './People'
 
-const Panchayat = () => {
+const Panchayat = ({mmm}) => {
   return (
     <div>
       <h1>Panchayat</h1>
-   <People/>
+   <People mmmmk={mmm}/> 
+   
     </div>
   )
 }
